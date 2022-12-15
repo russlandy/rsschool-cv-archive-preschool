@@ -5,8 +5,120 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <title>CV Dabysov Ruslan</title>
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="header-name">
+                    Junior Web-Developer
+                </div>
+                <nav class="header-nav">
+                    <ul class="header-nav-list">
+                        <li><a class="header-nav-link" href="#summary">Summary</a></li>
+                        <li><a class="header-nav-link" href="#skills">Skills</a></li>
+                        <li><a class="header-nav-link" href="#code">Code</a></li>
+                        <li><a class="header-nav-link" href="#courses">Courses</a></li>
+                        <li><a class="header-nav-link" href="#projects">Projects</a></li>
+                        <li><a class="header-nav-link" href="#edication">Edication</a></li>
+                        <li><a class="header-nav-link" href="#languages">Languages</a></li>
+                        <li><a class="header-nav-link" href="#contacts">Contacts</a></li>
+                    </ul>
+                    
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <img class="my-photo" src="./assets/img/photo.jpg" alt="my_photo">
+                <div class="section-title-profile">
+                    <h1 class="section-title-name">Ruslan Dabysov</h1>
+                    <h3 class="section-title-name-description">Junior web-developer</h3>
+                </div>
+            </section>
+                
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>Lorem ipsum blablabla</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="list">
+                    <li class="list-item">HTML5, CSS5</li>
+                    <li class="list-item">Git, Github</li>
+                    <li class="list-item">React basics</li>
+                    <li class="list-item">Javascrypt basics</li>
+                </ul>
+            </section>
+
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre>
+                    <code>
+function shorter_reverse_longer(a,b) {
+
+    if  (a.length < b.length) {
+        return a + reverse(b) + a   
+    }
+        
+    return b + reverse(a) + b
+}
+    
+const reverse = (str) => str.split("").reverse().join("") 
+                    </code>
+                </pre>
+            </section>
+
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul class="list">
+                    <li class="list-item">Web-Developer Udemy</li>
+                    <li class="list-item">Basic Javascript Udemy</li>
+                </ul>
+            </section>
+
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul class="list">
+                    <li class="list-item"><a class="link-project-item" href="#">CV#1. Markdown & Git</a></li>
+                    <li class="list-item"><a class="link-project-item" href="#">Web-page of windows store</a></li>
+                    <li class="list-item"><a class="link-project-item" href="#">Marvel portal</a></li>
+                </ul>
+            </section>
+
+            <section class="section" id="edication">
+                <h2 class="section-title">Edication</h2>
+                <p>Astrakhan State Technology Univercity / Engineer</p>
+            </section>
+
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="list">
+                    <li class="list-item">RUSSIAN - native</li>
+                    <li class="list-item">ENGLISH - upper-intermediate</li>
+                </ul>
+            </section>
+
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="contacts-list">
+                    <li class="contacts-item"><img class="contacts-icon" src="./assets/img/location.svg" alt="location">Moscow, Russia</li>
+                    <li class="contacts-item"><a class="contacts-link" href="mailto:ruslandabysov@gmail.com"><img class="contacts-icon" src="./assets/img/mail.svg" alt="mail">ruslandabysov@gmail.com</a></li>
+                    <li class="contacts-item"><a class="contacts-link" href="https://github.com/russlandy"><img class="contacts-icon" src="./assets/img/github-logo.svg" alt="github">russlandy</a></li>
+                    <li class="contacts-item"><a class="contacts-link" href="https://t.me/russlandy"><img class="contacts-icon" src="./assets/img/telegram-logo.svg" alt="telegram">@rslnl</a></li>
+
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+
+        </div>
+    </footer>
 </body>
 </html>
