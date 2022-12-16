@@ -162,7 +162,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 24px;
+    font-size: 1.6rem;
     color: #000;
     font-weight: 500;
     background-color: #f5e3cc;
@@ -172,3 +172,46 @@ body {
 .logo-img {
     width: 200px;
 }
+
+
+@media (max-width: 768px) {
+
+
+    .header-name {
+        margin: 0 0 0 1rem;
+        font-size: 0.8rem;
+    }
+
+
+    .header-nav-link {
+        font-size: 0.8rem;
+    }
+
+    .section {
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 20px;
+        font-size: 1.0rem;
+    }
+
+    .section-title {
+        font-size: 1.4rem;
+    }
+
+    .contacts-icon {
+        width: 20px;
+        margin-right: 10px;
+        margin-left: 16px;
+    }
+
+    .container-footer {
+        font-size: 1.2rem;
+    }
+
+    .logo-img {
+        width: 150px;
+    }
+
+
+}
+
